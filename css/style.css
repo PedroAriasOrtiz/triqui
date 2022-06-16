@@ -1,0 +1,63 @@
+/* DISEÑO DE TEXTO Y TABLERO */
+body{
+	background: url(../img/fondo.png);
+	background-position: center;
+	font-family: 'Josefin Sans', sans-serif;
+	background-size: cover;
+	text-align: center;
+}
+
+h1, h2{
+	text-align:  center;
+}
+
+h1{
+	color: #000000;
+	text-align: center;
+	font-size:  70px;
+	text-shadow: 1px 1px 1px#000000;
+	
+}
+
+h2{
+	text-shadow: 2px 2px 2px#000000;
+	font-size:  30px;
+}
+/* SE DAN LOS VALORES PRA EL TABLERO */
+#tablero{
+	margin: auto;
+	width: 750px;
+	max-width:  100%;
+	display:  flex;
+	flex-wrap:  wrap;
+	justify-content: center;
+}
+/* VALORES DE LOS BOTONES */
+#tablero>button{
+	
+	width: 200px;
+	height: 200px;  
+	max-width: 33.33%;
+	font-size:  150px;
+	border-radius: 10px;
+	background-color: #f3611e60;
+
+}
+/* TEXTO FIN DE JUEGO */
+#textoVictoria{
+	visibility: hidden;
+	color: #ffffff;
+}
+.btn-nav{
+    bottom: 100px;
+    padding: 10px 20px;
+    background-color: #f3611e60;
+    color: #000000;
+    border: 1px solid #000000;
+    text-decoration: none;
+	display: inline-block;
+	text-align: center;
+	margin: 20px
+}
+
+
